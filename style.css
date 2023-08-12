@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-box{
+    transition: all 500ms ease;
+}
+
+.custom-box:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    scale: 1.01;
+    color: rgb(32, 101, 174);
+}
+
+.image{
+    transition:all 800ms ease;    
+}
+.boxx:hover .image{
+    background-color: black;
+    box-shadow: 0px 2px 22px rgba(202, 202, 202, 0.25);
+}
